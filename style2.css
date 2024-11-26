@@ -1,0 +1,308 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+
+.html{
+    scroll-behavior: smooth;
+    cursor: all-scroll;
+}
+
+
+    
+   
+
+.background{
+    animation: zoomInOut 0s infinite; 
+    z-index: -1;
+    background-image: url(https://www.animationsoftware7.com/img/agifs/snow02.gif);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+@keyframes zoom{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+ }   
+body{
+  
+    border: 0;
+    margin: 0;
+    color: white;
+    background-attachment: fixed;
+    
+     
+    
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: static;
+    text-align: center;
+    border-color: red;
+    border-width: 8px;
+    border-style: hidden;
+    position: sticky;
+    top: 10px;
+    
+}
+
+
+
+.navbar-left{
+    padding-left: 75px;
+    padding-top: 25px;
+    animation: zoomOut 10s infinite; 
+    z-index: -1;
+}
+@keyframes zoomOut{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+ }   
+.navbar-right{
+    padding-top: 50px;
+    padding-right: 100px;
+
+
+}
+.nav-right-a{
+    padding: 10px;
+    text-transform: uppercase;
+    color: orangered;
+    background-color: rgb(95, 112, 112);
+    font-family: 'Lucida Grande', Verdana, sans-serif;
+    text-decoration: dotted;
+
+}
+.heading {
+    color: rgb(248, 236, 10);
+    font-family:  monospace;
+    font-style: calc(20px+ 2vw);
+    animation: blink-caret 0.75s step-end infinite;
+    text-transform: uppercase;
+    animation: zoomInOut 5s infinite;
+}
+@keyframes zoomInOut {
+    0% , 100% {
+        transform: scale(1);
+
+    }
+    50% {
+        transform: scale(1.5);
+    }
+    
+}
+
+.para{
+    color: orangered;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: overline;
+    box-shadow: 20px;
+}
+
+
+
+   
+
+
+.Home {
+    padding: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    
+}
+.Home-left{
+    padding-right: 100px;
+    padding-top: 100px;
+}
+.Home-right{
+    padding-left: 200px;
+    padding-top: 200px;
+}
+.about{
+    padding: 100px;
+    text-align: left;
+    padding-left: 600px;
+    padding-right: 600px;
+}
+.about-h1 {
+    text-align: center;
+    padding: 50px;
+    border-radius: 20%;
+    background-color: aliceblue;
+    box-shadow: 2px 2px 10px red;
+}
+.about-p{
+    text-align: left;
+    
+    padding: 60px;
+    border-radius: 20%;
+    background-color: aliceblue;
+    box-shadow: 2px 2px 10px orange, 2px 2px 10px orange;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.skills{
+    padding: 100px;
+    text-align: center;
+    padding-left: 600px;
+    padding-right: 600px;
+}
+.skills-h1{
+    text-align: center;
+    padding: 20px;
+    border-radius: 25%;
+    background-color: yellowgreen;
+    box-shadow: 2px 2px 10px blue;
+}
+.skills-p{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+    
+    
+}
+.skills-p1{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    padding-top: 25px;
+    padding-left: 370px;
+    
+    
+}
+
+.skill{
+    text-align: center;
+    box-decoration-break: slice;
+    background-color: orchid;
+    margin: 20px;
+    border-radius: 20%;
+    padding: 20px;
+    box-shadow: 2px 2px 10px orchid;
+
+}
+
+
+.contact{
+    padding: 100px;
+    text-align: center;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+.para1{
+    background-color: yellowgreen;
+    color: orangered;
+    font-size: 25px;
+    font-family: 'Lucida Grande', Verdana, sans-serif;
+}
+.contactus{
+    background-color: blue;
+    background-attachment: fixed;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25%;
+    border-radius: 25%;
+    box-shadow: 2px 2px 10px grey,2px 2px 10px grey;
+    padding-top: 25px;
+    padding: 100px;
+    
+}
+
+.heading1{
+    padding-top: 0px;
+    border-radius: 25%;
+    padding-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 5%;
+}
+.input{
+    border-radius: 20%;
+    padding: 2px;
+    size: 200px;
+}
+.Email{
+    background-color: whitesmoke;
+    border-radius: 20%;
+    padding: 10px;
+    box-shadow: 2px 2px 10px yellow,2px 2px 10px yellow;
+    border-style: hidden;
+    cursor: pointer;
+}
+.Mobile{
+    background-color: whitesmoke;
+    border-radius: 20%;
+    padding: 10px;
+    box-shadow: 2px 2px 10px yellow,2px 2px 10px yellow;
+    border-style: hidden;
+    cursor: pointer;
+}
+.Name{
+    background-color: whitesmoke;
+    border-radius: 20%;
+    padding: 10px;
+    box-shadow: 2px 2px 10px yellow,2px 2px 10px yellow;
+    border-style: hidden;
+    cursor: pointer;
+}
+.message{
+    background-color: whitesmoke;
+    border-radius: 20%;
+    padding: 10px;
+    box-shadow: 2px 2px 10px yellow,2px 2px 10px yellow;
+    border-style: hidden;
+    cursor: pointer;
+}
+.button{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-size-adjust: 100px;
+    text-transform: capitalize;
+    background-color: whitesmoke;
+    border-radius: 20%;
+    padding: 10px;
+    box-shadow: 2px 2px 10px orange,2px 2px 10px orange;
+    border-style: hidden;
+    cursor: pointer;
+}
+.socio-logo{
+    border-radius: 25%;
+}
+.links{
+    padding-top: 0px;
+    padding-left: 600px;
+    display: flex;
+    flex-direction: row;
+}
+.socio {
+    padding-top: 0px;
+    padding-right: 5px;
+    
+}
