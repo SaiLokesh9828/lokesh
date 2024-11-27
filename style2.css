@@ -13,7 +13,7 @@
 .background{
     animation: zoomInOut 0s infinite; 
     z-index: -1;
-    background-image: url("fire.jpg");
+    background-color: black;
     background-size: cover; 
     background-repeat: no-repeat;
     background-position: center;
