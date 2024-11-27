@@ -13,7 +13,7 @@
 .background{
     animation: zoomInOut 0s infinite; 
     z-index: -1;
-    background-image: url(https://www.animationsoftware7.com/img/agifs/snow02.gif);
+    background-image: url("waajicity.jpg");
     background-size: cover; 
     background-repeat: no-repeat;
     background-position: center;
