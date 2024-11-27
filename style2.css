@@ -13,7 +13,7 @@
 .background{
     animation: zoomInOut 0s infinite; 
     z-index: -1;
-    background-color: indigo;
+    background-image: url("loki.jpg");
     background-size: cover; 
     background-repeat: no-repeat;
     background-position: center;
